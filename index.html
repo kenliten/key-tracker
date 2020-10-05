@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="./css/master.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Key Tracker - by @kenliten</title>
+
+  </head>
+  <body>
+
+    <h1 class="title">Key Tracker</h1>
+    <small class="subtitle">Just type a key or command, then click your desired function from the grid bellow.</small>
+
+    <h2 class="special-title">.: Generated Functions :.</h2>
+    <div id="event-selector">
+      <input type="radio" name="event" id="keydown"><label for="keydown">Keydown</label>
+      <input type="radio" name="event" id="keyup" checked><label for="keyup">Keyup</label>
+      <input type="radio" name="event" id="keypress"><label for="keypress">Keypress</label>
+    </div>
+    <div class="function-selector">
+      <div class="function-1 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-1"></textarea>
+      </div>
+      <div class="function-2 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-2"></textarea>
+      </div>
+      <div class="function-3 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-3"></textarea>
+      </div>
+      <div class="function-4 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-4"></textarea>
+      </div>
+      <div class="function-5 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-5"></textarea>
+      </div>
+      <div class="function-6 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-6"></textarea>
+      </div>
+      <div class="function-7 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-7"></textarea>
+      </div>
+      <div class="function-8 function-holder-container">
+        <textarea class="function-holder" rows="10" id="function-8"></textarea>
+      </div>
+    </div>
+
+    <div class="clear-message">
+      Press a key to get started
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
